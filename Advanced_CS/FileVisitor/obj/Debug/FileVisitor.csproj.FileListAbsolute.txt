@@ -1,0 +1,4 @@
+D:\MENTORING\Tasks\Advanced_CS\FileVisitor\bin\Debug\FileVisitor.dll
+D:\MENTORING\Tasks\Advanced_CS\FileVisitor\bin\Debug\FileVisitor.pdb
+D:\MENTORING\Tasks\Advanced_CS\FileVisitor\obj\Debug\FileVisitor.dll
+D:\MENTORING\Tasks\Advanced_CS\FileVisitor\obj\Debug\FileVisitor.pdb

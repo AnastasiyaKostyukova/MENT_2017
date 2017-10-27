@@ -1,0 +1,7 @@
+D:\MENTORING\Tasks\Advanced_CS\Visitor\bin\Debug\netstandard1.0\Visitor.deps.json
+D:\MENTORING\Tasks\Advanced_CS\Visitor\bin\Debug\netstandard1.0\Visitor.dll
+D:\MENTORING\Tasks\Advanced_CS\Visitor\bin\Debug\netstandard1.0\Visitor.pdb
+D:\MENTORING\Tasks\Advanced_CS\Visitor\obj\Debug\netstandard1.0\Visitor.csprojResolveAssemblyReference.cache
+D:\MENTORING\Tasks\Advanced_CS\Visitor\obj\Debug\netstandard1.0\Visitor.AssemblyInfo.cs
+D:\MENTORING\Tasks\Advanced_CS\Visitor\obj\Debug\netstandard1.0\Visitor.dll
+D:\MENTORING\Tasks\Advanced_CS\Visitor\obj\Debug\netstandard1.0\Visitor.pdb
