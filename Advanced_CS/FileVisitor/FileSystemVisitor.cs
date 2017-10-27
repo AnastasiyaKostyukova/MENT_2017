@@ -9,6 +9,7 @@ namespace FileVisitor
   {
     private Func<string, bool> _filter;
     private string _rootFolder;
+    public static bool StopHere = false;
 
     public event EventHandler<VisitorEventArgs> VisitStarted;
     public event EventHandler<VisitorEventArgs> VisitEnded;
@@ -48,6 +49,12 @@ namespace FileVisitor
           throw new ArgumentException("Start point must be not empty");
       }
 
+      if (StopHere)
+      {
+        VisitEnded?.Invoke(this, new VisitorEventArgs("Our travel is ended"));
+        yield break;
+      }
+
       VisitStarted?.Invoke(this, new VisitorEventArgs("Our travel is started"));
 
 
@@ -55,10 +62,27 @@ namespace FileVisitor
 
       foreach (var dirName in directories)
       {
+        if (StopHere)
+        {
+          VisitEnded?.Invoke(this, new VisitorEventArgs("Our travel is ended"));
+          yield break;
+        }
+
         DirectoryFound?.Invoke(this, new VisitorEventArgs(dirName));
+
+        if (StopHere)
+        {
+          VisitEnded?.Invoke(this, new VisitorEventArgs("Our travel is ended"));
+          yield break;
+        }
 
         if (ReturnThisItem(dirName))
         {
+          if (StopHere)
+          {
+            VisitEnded?.Invoke(this, new VisitorEventArgs("Our travel is ended"));
+            yield break;
+          }
           yield return dirName;
 
 
@@ -68,9 +92,16 @@ namespace FileVisitor
           else
             subVisitor = new FileSystemVisitor(dirName, _filter);
 
+          this.SubscribeToSubFsvEvents(subVisitor);
+
           //Searching in subdirectories
           foreach (var item in subVisitor)
           {
+            if (StopHere)
+            {
+              VisitEnded?.Invoke(this, new VisitorEventArgs("Our travel is ended"));
+              yield break;
+            }
             yield return item;
           }
         }
@@ -81,15 +112,32 @@ namespace FileVisitor
       //Return files
       foreach (var fileName in files)
       {
+        if (StopHere)
+        {
+          VisitEnded?.Invoke(this, new VisitorEventArgs("Our travel is ended"));
+          yield break;
+        }
+
         FileFound?.Invoke(this, new VisitorEventArgs(fileName));
+
+        if (StopHere)
+        {
+          VisitEnded?.Invoke(this, new VisitorEventArgs("Our travel is ended"));
+          yield break;
+        }
 
         if (ReturnThisItem(fileName))
         {
-            yield return fileName;
+          if (StopHere)
+          {
+            VisitEnded?.Invoke(this, new VisitorEventArgs("Our travel is ended"));
+            yield break;
+          }
+          yield return fileName;
         }
       }
 
-      VisitEnded?.Invoke(this, new VisitorEventArgs("Our travel is started"));
+      VisitEnded?.Invoke(this, new VisitorEventArgs("Our travel is ended"));
     }
 
     private bool ReturnThisItem(string item)
@@ -99,6 +147,14 @@ namespace FileVisitor
         FilteredDirectoryFound?.Invoke(this, new VisitorEventArgs(item));
       }
       return (this._filter == null || !this._filter(item));
+    }
+
+    private void SubscribeToSubFsvEvents(FileSystemVisitor subFsv)
+    {
+      subFsv.DirectoryFound += (object s, VisitorEventArgs e) => this.DirectoryFound?.Invoke(this, new VisitorEventArgs(e.Info));
+      subFsv.FileFound += (object s, VisitorEventArgs e) => this.FileFound?.Invoke(this, new VisitorEventArgs(e.Info));
+      subFsv.FilteredDirectoryFound += (object s, VisitorEventArgs e) => this.FilteredDirectoryFound?.Invoke(this, new VisitorEventArgs(e.Info));
+      subFsv.FilteredFileFound += (object s, VisitorEventArgs e) => this.FilteredFileFound?.Invoke(this, new VisitorEventArgs(e.Info));
     }
 
 

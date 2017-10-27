@@ -8,25 +8,6 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp
 {
-
-  class Button
-  {
-    public event EventHandler Click;
-
-    public void Start ()
-    {
-      // magic
-
-      if (Click != null)
-      {
-        Console.WriteLine("raise event");
-        Click(null, new EventArgs());
-      }
-    }
-  }
-
-
-
   class Program
   {
 
@@ -61,24 +42,48 @@ namespace ConsoleApp
       Func<string, bool> func3 = r => r.Contains("file");
       Func<string, bool> func4 = r => { r = r.Substring(0, 3); return r == "fil"; };
 
-      var fsv = new FileSystemVisitor(@"TEST", s => s.EndsWith(".txt"));
+      //var fsv = new FileSystemVisitor(@"TEST");
+      //fsv.FileFound += (object sender, VisitorEventArgs e) =>
+      //{
+      //  if (e.Info == (@"TEST\test1\test3\intest3_1.txt"))
+      //  {
+      //    Console.WriteLine("AAAAAAAAAAAAAAAAAAAAA");
+      //    e.Stop();
+      //  }
+      //};
+      
+
+      var fsv = new FileSystemVisitor(@"TEST");//, s => s.Contains("2"));
       //var fsv = new FileSystemVisitor(@"TEST", s => s.Contains("3"));
+
+      fsv.FileFound += (object sender, VisitorEventArgs e) =>
+      {
+        if (e.Info == (@"TEST\test1\test3\intest3_1.txt"))
+        {
+          Console.WriteLine("AAAAAAAAAAAAAAAA");
+          e.Stop();
+        }
+      };
 
       fsv.VisitStarted += (object sender, VisitorEventArgs e) => Console.WriteLine("\nFiltered search started!\n");
       fsv.VisitEnded += (object sender, VisitorEventArgs e) => Console.WriteLine("\nFiltered search finished\n");
-      fsv.FilteredDirectoryFound += (object sender, VisitorEventArgs e) => Console.WriteLine("\nIS Filtered Directory \n" + e.Info);
-      fsv.FilteredFileFound += (object sender, VisitorEventArgs e) => Console.WriteLine("\nIS Filtered File \n" + e.Info);
 
-      var list = new List<string>();
+      //fsv.FileFound += (object sender, VisitorEventArgs e) => Console.WriteLine("\nFileFound " + e.Info);
+      //fsv.DirectoryFound += (object sender, VisitorEventArgs e) => Console.WriteLine("\nDirectoryFound " + e.Info);
+      //fsv.FilteredDirectoryFound += (object sender, VisitorEventArgs e) => Console.WriteLine("\nFilteredDirectoryFound " + e.Info);
+      //fsv.FilteredFileFound += (object sender, VisitorEventArgs e) => Console.WriteLine("\nFilteredDirectoryFound " + e.Info);
+
+      //var list = new List<string>();
       foreach (var r in fsv)
       {
-        list.Add(r);
+        Console.WriteLine(r);
+        //list.Add(r);
       }
 
-      foreach (var l in list)
-      {
-        Console.WriteLine("HH " + l);
-      }
+      //foreach (var l in list)
+      //{
+      //  Console.WriteLine("HH " + l);
+      //}
 
       //Action<string, bool> func5 = (r, b) => { r.Substring(0, 3); };
 
