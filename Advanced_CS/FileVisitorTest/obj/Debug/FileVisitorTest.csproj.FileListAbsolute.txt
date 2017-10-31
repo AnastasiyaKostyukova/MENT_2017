@@ -7,3 +7,12 @@ D:\MENTORING\Mentoring_1\MENT_2017\Advanced_CS\FileVisitorTest\bin\Debug\nunit.f
 D:\MENTORING\Mentoring_1\MENT_2017\Advanced_CS\FileVisitorTest\obj\Debug\FileVisitorTest.csprojResolveAssemblyReference.cache
 D:\MENTORING\Mentoring_1\MENT_2017\Advanced_CS\FileVisitorTest\obj\Debug\FileVisitorTest.dll
 D:\MENTORING\Mentoring_1\MENT_2017\Advanced_CS\FileVisitorTest\obj\Debug\FileVisitorTest.pdb
+D:\MENTORING\ment_tasks\Advanced_CS\FileVisitorTest\bin\Debug\FileVisitorTest.dll
+D:\MENTORING\ment_tasks\Advanced_CS\FileVisitorTest\bin\Debug\FileVisitorTest.pdb
+D:\MENTORING\ment_tasks\Advanced_CS\FileVisitorTest\bin\Debug\FileVisitor.dll
+D:\MENTORING\ment_tasks\Advanced_CS\FileVisitorTest\bin\Debug\nunit.framework.dll
+D:\MENTORING\ment_tasks\Advanced_CS\FileVisitorTest\bin\Debug\FileVisitor.pdb
+D:\MENTORING\ment_tasks\Advanced_CS\FileVisitorTest\bin\Debug\nunit.framework.xml
+D:\MENTORING\ment_tasks\Advanced_CS\FileVisitorTest\obj\Debug\FileVisitorTest.csprojResolveAssemblyReference.cache
+D:\MENTORING\ment_tasks\Advanced_CS\FileVisitorTest\obj\Debug\FileVisitorTest.dll
+D:\MENTORING\ment_tasks\Advanced_CS\FileVisitorTest\obj\Debug\FileVisitorTest.pdb

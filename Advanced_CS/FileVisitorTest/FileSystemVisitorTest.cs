@@ -1,14 +1,13 @@
-﻿using NUnit.Framework;
+﻿using System;
+using NUnit.Framework;
 using System.Collections.Generic;
 using System.Linq;
 using FileVisitor;
 
 namespace FileVisitorTest
 {
-  using System;
-
   public class FileSystemVisitorTest
-    {
+  {
 
     [Test]
     public void FileSystemVisitor_WithEmptyRoot()
@@ -34,11 +33,11 @@ namespace FileVisitorTest
     }
 
     [Test]
-      public void FileSystemVisitor_WithRoot()
-      {
-        var fsv2 = new FileSystemVisitor(@"TEST");
+    public void FileSystemVisitor_WithRoot()
+    {
+      var fsv2 = new FileSystemVisitor(@"TEST");
 
-        var expected = new List<string>
+      var expected = new List<string>
                          {
                            @"TEST\test1",
                            @"TEST\test1\test3",
@@ -49,14 +48,14 @@ namespace FileVisitorTest
                            @"TEST\test2\intest2_1.txt"
                          };
 
-        var RealFileStructure = new List<string>();
-        foreach (var item in fsv2)
-        {
-          RealFileStructure.Add(item);
-        }
-
-        Assert.IsTrue(expected.SequenceEqual(RealFileStructure));
+      var RealFileStructure = new List<string>();
+      foreach (var item in fsv2)
+      {
+        RealFileStructure.Add(item);
       }
+
+      Assert.IsTrue(expected.SequenceEqual(RealFileStructure));
+    }
 
     [Test]
     public void FileSystemVisitor_WithRootAndFilter()
