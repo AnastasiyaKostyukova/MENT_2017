@@ -14,3 +14,11 @@ D:\MENTORING\Mentoring_1\MENT_2017\Advanced_CS\ConsoleApp\bin\Debug\ConsoleApp.p
 D:\MENTORING\Mentoring_1\MENT_2017\Advanced_CS\ConsoleApp\bin\Debug\FileVisitor.dll
 D:\MENTORING\Mentoring_1\MENT_2017\Advanced_CS\ConsoleApp\bin\Debug\FileVisitor.pdb
 D:\MENTORING\Mentoring_1\MENT_2017\Advanced_CS\ConsoleApp\obj\Debug\ConsoleApp.csprojResolveAssemblyReference.cache
+D:\MENTORING\ment_tasks\Advanced_CS\ConsoleApp\bin\Debug\ConsoleApp.exe.config
+D:\MENTORING\ment_tasks\Advanced_CS\ConsoleApp\bin\Debug\ConsoleApp.exe
+D:\MENTORING\ment_tasks\Advanced_CS\ConsoleApp\bin\Debug\ConsoleApp.pdb
+D:\MENTORING\ment_tasks\Advanced_CS\ConsoleApp\bin\Debug\FileVisitor.dll
+D:\MENTORING\ment_tasks\Advanced_CS\ConsoleApp\bin\Debug\FileVisitor.pdb
+D:\MENTORING\ment_tasks\Advanced_CS\ConsoleApp\obj\Debug\ConsoleApp.csprojResolveAssemblyReference.cache
+D:\MENTORING\ment_tasks\Advanced_CS\ConsoleApp\obj\Debug\ConsoleApp.exe
+D:\MENTORING\ment_tasks\Advanced_CS\ConsoleApp\obj\Debug\ConsoleApp.pdb

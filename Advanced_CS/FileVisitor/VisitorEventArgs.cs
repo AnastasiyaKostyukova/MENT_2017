@@ -11,10 +11,10 @@ namespace FileVisitor
     }
     public string Info { get; set; }
 
-    public void Stop()
-    {
-      FileSystemVisitor.StopHere = true;
-    }
+    //public void Stop()
+    //{
+    //  FileSystemVisitor.StopHere = true;
+    //}
 
   }
 }

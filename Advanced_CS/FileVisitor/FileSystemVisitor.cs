@@ -9,7 +9,7 @@ namespace FileVisitor
   {
     private Func<string, bool> _filter;
     private string _rootFolder;
-    public static bool StopHere = false;
+    public bool StopHere { get; set; }
 
     public event EventHandler<VisitorEventArgs> VisitStarted;
     public event EventHandler<VisitorEventArgs> VisitEnded;
@@ -23,16 +23,16 @@ namespace FileVisitor
 
     public FileSystemVisitor() { }
 
-    public FileSystemVisitor(Func<string, bool> filter)
-    {
-      this._filter = filter;
-    }
-
     public FileSystemVisitor(string rootFolder)
     {
       this._rootFolder = rootFolder;
     }
 
+    public FileSystemVisitor(Func<string, bool> filter)
+    {
+      this._filter = filter;
+    }
+    
     public FileSystemVisitor(string rootFolder, Func<string, bool> filter)
     {
       this._rootFolder = rootFolder;
@@ -49,14 +49,7 @@ namespace FileVisitor
           throw new ArgumentException("Start point must be not empty");
       }
 
-      if (StopHere)
-      {
-        VisitEnded?.Invoke(this, new VisitorEventArgs("Our travel is ended"));
-        yield break;
-      }
-
       VisitStarted?.Invoke(this, new VisitorEventArgs("Our travel is started"));
-
 
       var directories = Directory.GetDirectories(_rootFolder);
 
@@ -84,26 +77,25 @@ namespace FileVisitor
             yield break;
           }
           yield return dirName;
+        }
 
+        FileSystemVisitor subVisitor;
+        if (_filter == null)
+          subVisitor = new FileSystemVisitor(dirName);
+        else
+          subVisitor = new FileSystemVisitor(dirName, _filter);
 
-          FileSystemVisitor subVisitor;
-          if (_filter == null)
-            subVisitor = new FileSystemVisitor(dirName);
-          else
-            subVisitor = new FileSystemVisitor(dirName, _filter);
+        this.SubscribeToSubFsvEvents(subVisitor);
 
-          this.SubscribeToSubFsvEvents(subVisitor);
-
-          //Searching in subdirectories
-          foreach (var item in subVisitor)
+        //Searching in subdirectories
+        foreach (var item in subVisitor)
+        {
+          if (StopHere)
           {
-            if (StopHere)
-            {
-              VisitEnded?.Invoke(this, new VisitorEventArgs("Our travel is ended"));
-              yield break;
-            }
-            yield return item;
+            VisitEnded?.Invoke(this, new VisitorEventArgs("Our travel is ended"));
+            yield break;
           }
+          yield return item;
         }
       }
 
@@ -146,7 +138,7 @@ namespace FileVisitor
       {
         FilteredDirectoryFound?.Invoke(this, new VisitorEventArgs(item));
       }
-      return (this._filter == null || !this._filter(item));
+      return (this._filter == null || this._filter(item));
     }
 
     private void SubscribeToSubFsvEvents(FileSystemVisitor subFsv)
@@ -156,22 +148,5 @@ namespace FileVisitor
       subFsv.FilteredDirectoryFound += (object s, VisitorEventArgs e) => this.FilteredDirectoryFound?.Invoke(this, new VisitorEventArgs(e.Info));
       subFsv.FilteredFileFound += (object s, VisitorEventArgs e) => this.FilteredFileFound?.Invoke(this, new VisitorEventArgs(e.Info));
     }
-
-
-    //public IEnumerable<string> TestOfFilter(List<string> files)
-    //{
-    //  if (this._filter == null)
-    //  {
-    //    return files;
-    //  }
-
-    //  var filtred = files.Where(this._filter);
-
-    //  if (FilesFound != null)
-    //  {
-    //    FilesFound(this, new VisitorEventArgs { Info = "My file Found...." + string.Join(", ", filtred) });
-    //  }
-    //  return filtred;
-    //}
   }
 }
