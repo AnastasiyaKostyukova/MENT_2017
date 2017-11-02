@@ -1,0 +1,8 @@
+D:\MENTORING\Mentoring_1\MENT_2017\2_Exception_handling\TestTask2\bin\Debug\TestTask2.exe.config
+D:\MENTORING\Mentoring_1\MENT_2017\2_Exception_handling\TestTask2\obj\Debug\TestTask2.csprojResolveAssemblyReference.cache
+D:\MENTORING\Mentoring_1\MENT_2017\2_Exception_handling\TestTask2\bin\Debug\TestTask2.exe
+D:\MENTORING\Mentoring_1\MENT_2017\2_Exception_handling\TestTask2\bin\Debug\TestTask2.pdb
+D:\MENTORING\Mentoring_1\MENT_2017\2_Exception_handling\TestTask2\bin\Debug\StringToIntParser.dll
+D:\MENTORING\Mentoring_1\MENT_2017\2_Exception_handling\TestTask2\bin\Debug\StringToIntParser.pdb
+D:\MENTORING\Mentoring_1\MENT_2017\2_Exception_handling\TestTask2\obj\Debug\TestTask2.exe
+D:\MENTORING\Mentoring_1\MENT_2017\2_Exception_handling\TestTask2\obj\Debug\TestTask2.pdb

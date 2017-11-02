@@ -11,15 +11,25 @@ namespace Show_First_Symbol
     static void Main(string[] args)
     {
       Console.Clear();
+      DateTime date = DateTime.Now;
 
-      DateTime dat = DateTime.Now;
+      Console.WriteLine("\nToday is {0:d} at {0:T}.", date);
 
-      Console.WriteLine("\nToday is {0:d} at {0:T}.", dat);
-      Console.Write("\nEnter any string: ");
-      string s = null;
-      s = Console.ReadLine();
-      string res = string.IsNullOrEmpty(s) ? null : s[0].ToString();
-      Console.WriteLine("Your string is: {0} \nThank you =)", s[0]);
+      Console.Write("\n1. Enter any string: ");
+      var str1 = Console.ReadLine();
+      var res = string.IsNullOrEmpty(str1) ? null : str1[0].ToString();
+      Console.WriteLine("Your string is: {0} \nThank you =)", res);
+
+      Console.WriteLine("\n\n2. Enter any string.");
+      var str2 = Console.ReadLine();
+      try
+      {
+        Console.WriteLine(str2[0]);
+      }
+      catch (IndexOutOfRangeException)
+      {
+        Console.WriteLine("You entered empty string.");
+      }
     }
   }
 }

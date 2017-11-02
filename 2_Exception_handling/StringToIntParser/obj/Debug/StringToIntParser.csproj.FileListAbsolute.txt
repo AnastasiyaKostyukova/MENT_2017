@@ -1,0 +1,4 @@
+D:\MENTORING\Mentoring_1\MENT_2017\2_Exception_handling\StringToIntParser\bin\Debug\StringToIntParser.dll
+D:\MENTORING\Mentoring_1\MENT_2017\2_Exception_handling\StringToIntParser\bin\Debug\StringToIntParser.pdb
+D:\MENTORING\Mentoring_1\MENT_2017\2_Exception_handling\StringToIntParser\obj\Debug\StringToIntParser.dll
+D:\MENTORING\Mentoring_1\MENT_2017\2_Exception_handling\StringToIntParser\obj\Debug\StringToIntParser.pdb
