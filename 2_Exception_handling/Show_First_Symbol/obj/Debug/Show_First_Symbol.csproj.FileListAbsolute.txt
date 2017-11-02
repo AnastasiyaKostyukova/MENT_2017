@@ -1,0 +1,6 @@
+D:\MENTORING\Mentoring_1\MENT_2017\2_Exception_handling\Show_First_Symbol\bin\Debug\Show_First_Symbol.exe.config
+D:\MENTORING\Mentoring_1\MENT_2017\2_Exception_handling\Show_First_Symbol\bin\Debug\Show_First_Symbol.exe
+D:\MENTORING\Mentoring_1\MENT_2017\2_Exception_handling\Show_First_Symbol\bin\Debug\Show_First_Symbol.pdb
+D:\MENTORING\Mentoring_1\MENT_2017\2_Exception_handling\Show_First_Symbol\obj\Debug\Show_First_Symbol.csprojResolveAssemblyReference.cache
+D:\MENTORING\Mentoring_1\MENT_2017\2_Exception_handling\Show_First_Symbol\obj\Debug\Show_First_Symbol.exe
+D:\MENTORING\Mentoring_1\MENT_2017\2_Exception_handling\Show_First_Symbol\obj\Debug\Show_First_Symbol.pdb
