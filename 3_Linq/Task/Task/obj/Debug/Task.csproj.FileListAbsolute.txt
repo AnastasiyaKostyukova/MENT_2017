@@ -6,3 +6,12 @@ D:\MENTORING\Task\Task\obj\Debug\SampleSupport.SampleForm.resources
 D:\MENTORING\Task\Task\obj\Debug\Task.csproj.GenerateResource.Cache
 D:\MENTORING\Task\Task\obj\Debug\Task.exe
 D:\MENTORING\Task\Task\obj\Debug\Task.pdb
+D:\MENTORING\Mentoring_1\MENT_2017\3_Linq\Task\Task\bin\Debug\Task.exe.config
+D:\MENTORING\Mentoring_1\MENT_2017\3_Linq\Task\Task\obj\Debug\Task.exe
+D:\MENTORING\Mentoring_1\MENT_2017\3_Linq\Task\Task\obj\Debug\Task.pdb
+D:\MENTORING\Mentoring_1\MENT_2017\3_Linq\Task\Task\bin\Debug\Task.exe
+D:\MENTORING\Mentoring_1\MENT_2017\3_Linq\Task\Task\bin\Debug\Task.pdb
+D:\MENTORING\Mentoring_1\MENT_2017\3_Linq\Task\Task\obj\Debug\Task.csprojResolveAssemblyReference.cache
+D:\MENTORING\Mentoring_1\MENT_2017\3_Linq\Task\Task\obj\Debug\Task.Properties.Resources.resources
+D:\MENTORING\Mentoring_1\MENT_2017\3_Linq\Task\Task\obj\Debug\SampleSupport.SampleForm.resources
+D:\MENTORING\Mentoring_1\MENT_2017\3_Linq\Task\Task\obj\Debug\Task.csproj.GenerateResource.Cache
