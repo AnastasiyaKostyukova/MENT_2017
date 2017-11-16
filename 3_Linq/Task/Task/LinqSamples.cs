@@ -115,7 +115,7 @@ namespace SampleQueries
 
       foreach (var p in pairs_1)
       {
-        Console.Write($"{i}: Customer: {p.Customer.CustomerID}; suppliers: ");
+        //Console.Write($"{i}: Customer: {p.Customer.CustomerID}; suppliers: ");
         if (p.Suppliers.Any()) Console.Write(String.Join(" | ", p.Suppliers.Select(s => s.SupplierName)));
         Console.WriteLine();
         i++;
@@ -240,6 +240,7 @@ namespace SampleQueries
 
 
     //[Category("Restriction Operators")]
+
     //[Title("Where - Task 1")]
     //[Description("This sample uses the where clause to find all elements of an array with a value less than 5.")]
     //public void Linq1()
@@ -268,7 +269,6 @@ namespace SampleQueries
     //    ObjectDumper.Write(p);
     //  }
     //}
-
   }
 }
 
