@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<SourceAnalyzer Name="EPAM Nastya Custom rules">
+  <Description>
+    EPAM Custom rules
+  </Description>
+  <Rules>
+    <Rule Name="ControllerPostfixRule" CheckId="EP1000">
+      <Context>Context: Controller class must end with '...NastyaController'</Context>
+      <Description>Description: Controller class must end with '...NastyaController'</Description>
+    </Rule>
+  </Rules>
+</SourceAnalyzer>
