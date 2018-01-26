@@ -1,0 +1,10 @@
+D:\Andrew\Projects\Serialization_Task\Serialization_Task\bin\Debug\Serialization_Task.dll
+D:\Andrew\Projects\Serialization_Task\Serialization_Task\bin\Debug\Serialization_Task.pdb
+D:\Andrew\Projects\Serialization_Task\Serialization_Task\obj\Debug\Models.csprojResolveAssemblyReference.cache
+D:\Andrew\Projects\Serialization_Task\Serialization_Task\obj\Debug\Serialization_Task.dll
+D:\Andrew\Projects\Serialization_Task\Serialization_Task\obj\Debug\Serialization_Task.pdb
+D:\MENTORING\MENT_2017\15_Serialization\1\Serialization_Task\bin\Debug\Serialization_Task.dll
+D:\MENTORING\MENT_2017\15_Serialization\1\Serialization_Task\bin\Debug\Serialization_Task.pdb
+D:\MENTORING\MENT_2017\15_Serialization\1\Serialization_Task\obj\Debug\Models.csprojResolveAssemblyReference.cache
+D:\MENTORING\MENT_2017\15_Serialization\1\Serialization_Task\obj\Debug\Serialization_Task.dll
+D:\MENTORING\MENT_2017\15_Serialization\1\Serialization_Task\obj\Debug\Serialization_Task.pdb

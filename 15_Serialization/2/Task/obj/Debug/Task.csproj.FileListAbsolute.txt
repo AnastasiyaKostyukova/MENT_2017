@@ -1,0 +1,11 @@
+D:\MENTORING\MENT_2017\15_Serialization\2\Task\bin\Debug\Task.dll.config
+D:\MENTORING\MENT_2017\15_Serialization\2\Task\bin\Debug\Task.dll
+D:\MENTORING\MENT_2017\15_Serialization\2\Task\bin\Debug\Task.pdb
+D:\MENTORING\MENT_2017\15_Serialization\2\Task\bin\Debug\EntityFramework.dll
+D:\MENTORING\MENT_2017\15_Serialization\2\Task\bin\Debug\EntityFramework.SqlServer.dll
+D:\MENTORING\MENT_2017\15_Serialization\2\Task\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\MENTORING\MENT_2017\15_Serialization\2\Task\bin\Debug\EntityFramework.xml
+D:\MENTORING\MENT_2017\15_Serialization\2\Task\bin\Debug\EntityFramework.SqlServer.xml
+D:\MENTORING\MENT_2017\15_Serialization\2\Task\obj\Debug\Task.csprojResolveAssemblyReference.cache
+D:\MENTORING\MENT_2017\15_Serialization\2\Task\obj\Debug\Task.dll
+D:\MENTORING\MENT_2017\15_Serialization\2\Task\obj\Debug\Task.pdb

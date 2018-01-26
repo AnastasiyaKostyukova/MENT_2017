@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <book id="id1">
+    <isbn>productKey1</isbn>
+    <author>Author1</author>
+    <title>title1</title>
+    <genre>Fantasy</genre>
+    <publisher>PublisherName1</publisher>
+    <publish_date>2018-01-20T15:25:31.8875757+03:00</publish_date>
+    <description>Description1</description>
+    <registration_date>2018-01-22T15:25:31.8875757+03:00</registration_date>
+  </book>
+  <book id="id2">
+    <isbn>productKey2</isbn>
+    <author>Author2</author>
+    <title>title2</title>
+    <genre>Computer</genre>
+    <publisher>PublisherName2</publisher>
+    <publish_date>2018-01-19T15:25:31.8875757+03:00</publish_date>
+    <description>Description2</description>
+    <registration_date>2018-01-21T15:25:31.8875757+03:00</registration_date>
+  </book>
+  <book id="id3">
+    <isbn>productKey3</isbn>
+    <author>Author3</author>
+    <title>title3</title>
+    <genre>Romance</genre>
+    <publisher>PublisherName3</publisher>
+    <publish_date>2018-01-18T15:25:31.8875757+03:00</publish_date>
+    <description>Description3</description>
+    <registration_date>2018-01-20T15:25:31.8875757+03:00</registration_date>
+  </book>
+</catalog>
