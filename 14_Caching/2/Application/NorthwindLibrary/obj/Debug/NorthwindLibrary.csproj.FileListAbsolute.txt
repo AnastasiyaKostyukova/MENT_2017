@@ -1,0 +1,10 @@
+D:\MENTORING\NET-Mentoring-master (4)\.NET-Mentoring-master\Module14Caching\Application\NorthwindLibrary\bin\Debug\NorthwindLibrary.dll.config
+D:\MENTORING\NET-Mentoring-master (4)\.NET-Mentoring-master\Module14Caching\Application\NorthwindLibrary\bin\Debug\NorthwindLibrary.dll
+D:\MENTORING\NET-Mentoring-master (4)\.NET-Mentoring-master\Module14Caching\Application\NorthwindLibrary\bin\Debug\NorthwindLibrary.pdb
+D:\MENTORING\NET-Mentoring-master (4)\.NET-Mentoring-master\Module14Caching\Application\NorthwindLibrary\bin\Debug\EntityFramework.dll
+D:\MENTORING\NET-Mentoring-master (4)\.NET-Mentoring-master\Module14Caching\Application\NorthwindLibrary\bin\Debug\EntityFramework.SqlServer.dll
+D:\MENTORING\NET-Mentoring-master (4)\.NET-Mentoring-master\Module14Caching\Application\NorthwindLibrary\bin\Debug\EntityFramework.xml
+D:\MENTORING\NET-Mentoring-master (4)\.NET-Mentoring-master\Module14Caching\Application\NorthwindLibrary\bin\Debug\EntityFramework.SqlServer.xml
+D:\MENTORING\NET-Mentoring-master (4)\.NET-Mentoring-master\Module14Caching\Application\NorthwindLibrary\obj\Debug\NorthwindLibrary.csprojResolveAssemblyReference.cache
+D:\MENTORING\NET-Mentoring-master (4)\.NET-Mentoring-master\Module14Caching\Application\NorthwindLibrary\obj\Debug\NorthwindLibrary.dll
+D:\MENTORING\NET-Mentoring-master (4)\.NET-Mentoring-master\Module14Caching\Application\NorthwindLibrary\obj\Debug\NorthwindLibrary.pdb

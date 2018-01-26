@@ -1,0 +1,6 @@
+D:\MENTORING\NET-Mentoring-master (4)\.NET-Mentoring-master\Module14Caching\HTTP\Client\bin\Debug\Client.dll
+D:\MENTORING\NET-Mentoring-master (4)\.NET-Mentoring-master\Module14Caching\HTTP\Client\bin\Debug\Client.pdb
+D:\MENTORING\NET-Mentoring-master (4)\.NET-Mentoring-master\Module14Caching\HTTP\Client\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\MENTORING\NET-Mentoring-master (4)\.NET-Mentoring-master\Module14Caching\HTTP\Client\obj\Debug\Client.csprojResolveAssemblyReference.cache
+D:\MENTORING\NET-Mentoring-master (4)\.NET-Mentoring-master\Module14Caching\HTTP\Client\obj\Debug\Client.dll
+D:\MENTORING\NET-Mentoring-master (4)\.NET-Mentoring-master\Module14Caching\HTTP\Client\obj\Debug\Client.pdb
