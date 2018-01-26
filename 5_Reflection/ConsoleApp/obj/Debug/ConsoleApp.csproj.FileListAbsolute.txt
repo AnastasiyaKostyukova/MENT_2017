@@ -1,0 +1,11 @@
+D:\MENTORING\MENT_2017\5_Reflection\ConsoleApp\bin\Debug\ConsoleApp.exe.config
+D:\MENTORING\MENT_2017\5_Reflection\ConsoleApp\bin\Debug\ConsoleApp.exe
+D:\MENTORING\MENT_2017\5_Reflection\ConsoleApp\bin\Debug\ConsoleApp.pdb
+D:\MENTORING\MENT_2017\5_Reflection\ConsoleApp\bin\Debug\MyIoC.dll
+D:\MENTORING\MENT_2017\5_Reflection\ConsoleApp\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\MENTORING\MENT_2017\5_Reflection\ConsoleApp\bin\Debug\Fasterflect.dll
+D:\MENTORING\MENT_2017\5_Reflection\ConsoleApp\bin\Debug\MyIoC.pdb
+D:\MENTORING\MENT_2017\5_Reflection\ConsoleApp\bin\Debug\Fasterflect.xml
+D:\MENTORING\MENT_2017\5_Reflection\ConsoleApp\obj\Debug\ConsoleApp.csprojResolveAssemblyReference.cache
+D:\MENTORING\MENT_2017\5_Reflection\ConsoleApp\obj\Debug\ConsoleApp.exe
+D:\MENTORING\MENT_2017\5_Reflection\ConsoleApp\obj\Debug\ConsoleApp.pdb
