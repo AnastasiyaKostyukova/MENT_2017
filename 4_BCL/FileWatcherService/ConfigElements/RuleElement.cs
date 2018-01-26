@@ -7,28 +7,40 @@ namespace FileWatcherService.ConfigElements
     [ConfigurationProperty("ruleTemplate", IsKey = true)]
     public string RuleTemplate
     {
-      get => (string)this["ruleTemplate"];
+      get
+      {
+        return (string)this["ruleTemplate"];
+      }
       set { this["ruleTemplate"] = value; }
     }
 
     [ConfigurationProperty("destinationFolder")]
     public string DestinationFolder
     {
-      get => (string)this["destinationFolder"];
+      get
+      {
+        return (string)this["destinationFolder"];
+      }
       set { this["destinationFolder"] = value; }
     }
 
     [ConfigurationProperty("addIndex")]
     public bool AddIndex
     {
-      get => (bool)this["addIndex"];
+      get
+      {
+        return (bool)this["addIndex"];
+      }
       set { this["addIndex"] = value; }
     }
 
     [ConfigurationProperty("addDate")]
     public bool AddDate
     {
-      get => (bool)this["addDate"];
+      get
+      {
+        return (bool)this["addDate"];
+      }
       set { this["addDate"] = value; }
     }
   }

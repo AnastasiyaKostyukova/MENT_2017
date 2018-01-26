@@ -11,3 +11,14 @@ D:\MENTORING\Nastya_ment_tasks\4_BCL\FileWatcherService\obj\Debug\FileWatcherSer
 D:\MENTORING\Nastya_ment_tasks\4_BCL\FileWatcherService\obj\Debug\FileWatcherService.pdb
 D:\MENTORING\Nastya_ment_tasks\4_BCL\FileWatcherService\obj\Debug\FileWatcherService.Resources.Res.resources
 D:\MENTORING\Nastya_ment_tasks\4_BCL\FileWatcherService\obj\Debug\FileWatcherService.csproj.GenerateResource.Cache
+D:\MENTORING\MENT_2017\4_BCL\FileWatcherService\bin\Debug\FileWatcherService.exe.config
+D:\MENTORING\MENT_2017\4_BCL\FileWatcherService\obj\Debug\FileWatcherService.exe
+D:\MENTORING\MENT_2017\4_BCL\FileWatcherService\obj\Debug\FileWatcherService.pdb
+D:\MENTORING\MENT_2017\4_BCL\FileWatcherService\bin\Debug\FileWatcherService.exe
+D:\MENTORING\MENT_2017\4_BCL\FileWatcherService\bin\Debug\FileWatcherService.pdb
+D:\MENTORING\MENT_2017\4_BCL\FileWatcherService\obj\Debug\FileWatcherService.csproj.GenerateResource.Cache
+D:\MENTORING\MENT_2017\4_BCL\FileWatcherService\obj\Debug\FileWatcherService.Resources.Messages.resources
+D:\MENTORING\MENT_2017\4_BCL\FileWatcherService\bin\Debug\ru-RU\FileWatcherService.resources.dll
+D:\MENTORING\MENT_2017\4_BCL\FileWatcherService\obj\Debug\FileWatcherService.csprojResolveAssemblyReference.cache
+D:\MENTORING\MENT_2017\4_BCL\FileWatcherService\obj\Debug\FileWatcherService.Resources.Messages.ru-RU.resources
+D:\MENTORING\MENT_2017\4_BCL\FileWatcherService\obj\Debug\ru-RU\FileWatcherService.resources.dll

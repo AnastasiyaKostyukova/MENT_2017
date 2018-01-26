@@ -50,20 +50,21 @@
     <Compile Include="ConfigSection.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Resources\Res.Designer.cs">
+    <Compile Include="Resources\Messages.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>Res.resx</DependentUpon>
+      <DependentUpon>Messages.resx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Resources\Res.resx">
+    <EmbeddedResource Include="Resources\Messages.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Res.Designer.cs</LastGenOutput>
+      <LastGenOutput>Messages.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Messages.ru-RU.resx" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
